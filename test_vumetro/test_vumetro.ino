@@ -10,7 +10,7 @@ int mode = 0;
 void setup() {
   Serial.begin(9600);
   strip.begin();
-  strip.setBrightness(40); //0 - 255
+  strip.setBrightness(10); //0 - 255
   strip.show(); // Initialize all pixels to 'off'
 }
 
